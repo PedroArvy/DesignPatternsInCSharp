@@ -16,7 +16,7 @@ namespace AntiPatterns.IterateWithLogic
     public void Main()
     {
     }
-
+    
     /// <summary>
     /// Smell - Hard to read
     /// Smell - Hard to prove if correct

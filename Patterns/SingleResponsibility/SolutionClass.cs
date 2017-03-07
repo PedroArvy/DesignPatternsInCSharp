@@ -32,7 +32,6 @@ namespace AntiPatterns.SingleResponsibility.Solution1
   {
     public void Print(Rectangle rectangle)
     {
-      throw new NotImplementedException();
     }
   }
 
@@ -41,7 +40,6 @@ namespace AntiPatterns.SingleResponsibility.Solution1
   {
     public void Print(Rectangle rectangle)
     {
-      throw new NotImplementedException();
     }
   }
 
@@ -52,7 +50,6 @@ namespace AntiPatterns.SingleResponsibility.Solution1
 
     public void Print(Rectangle rectangle)
     {
-      throw new NotImplementedException();
     }
   }
 

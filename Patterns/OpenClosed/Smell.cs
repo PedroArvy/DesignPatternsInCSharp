@@ -39,6 +39,8 @@ namespace AntiPatterns.OpenClosed
           Circle circle = (Circle)shape;
           area += circle.Radius * circle.Radius * Math.PI;
         }
+
+        //smell adding new shapes requires modifying an existing method 
       }
 
       return area;

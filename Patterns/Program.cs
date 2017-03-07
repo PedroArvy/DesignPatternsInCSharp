@@ -5,10 +5,16 @@ using System.Threading.Tasks;
 
 namespace Patterns
 {
-    public class Program
+  public class Program
+  {
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-        }
+      AntiPatterns.Factory2.Solution solution = new AntiPatterns.Factory2.Solution();
+
+      string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+      solution.main(weekDays);
+
+
     }
+  }
 }

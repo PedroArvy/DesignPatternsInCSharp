@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 /// <summary>
 /// A class should have only one reason to change
-/// A class should model  one abstraction that it models
 /// </summary>
 namespace AntiPatterns.SingleResponsibility
 {

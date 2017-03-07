@@ -12,7 +12,9 @@ namespace AntiPatterns.OpenClosed.Solution
     public abstract double Area();
   }
 
-
+  /// <summary>
+  /// open for extension, closed for modification
+  /// </summary>
   public class Rectangle : Shape
   {
     public double Width { get; set; }
@@ -24,6 +26,9 @@ namespace AntiPatterns.OpenClosed.Solution
     }
   }
 
+  /// <summary>
+  /// 
+  /// </summary>
   public class Circle : Shape
   {
     public double Radius { get; set; }

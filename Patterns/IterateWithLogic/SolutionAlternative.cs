@@ -17,9 +17,7 @@ namespace AntiPatterns.IterateWithLogic.Alternative
     }
 
     /// <summary>
-    /// Hard to read
-    /// Hard to prove if correct
-    /// If there is a bug, can you tell if it is here or somewhere else
+    /// Cleaned up method
     /// </summary>
     /// <param name="sqMeters"></param>
     /// <param name="painters"></param>
