@@ -7,6 +7,7 @@ namespace Patterns.Singleton
 {
   public class SampleUsage
   {
+
     public void SomeMethod()
     {
       // Call Singleton's DoStuff() method 
@@ -17,12 +18,13 @@ namespace Patterns.Singleton
       myObject.DoStuff();
 
       // Pass as parameter 
-      SomeOtherMethod(SingletonNotThreadSafe.Instance); 
+      SomeOtherMethod(SingletonNotThreadSafe.Instance);
     }
-
 
     private void SomeOtherMethod(SingletonNotThreadSafe singleton)
     {
       singleton.DoStuff();
     }
+
   }
+}
