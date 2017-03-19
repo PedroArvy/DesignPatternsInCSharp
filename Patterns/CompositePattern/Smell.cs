@@ -24,6 +24,8 @@ namespace Patterns.CompositeSmell
       var emily = new Person { Name = "Emily" };
       var sophia = new Person { Name = "Sophia" };
       var brian = new Person { Name = "Brian" };
+
+      //smell - treee structure
       var developers = new Group { Name = "Developers", Members = { joe, jake, emily } };
 
       //smell - need two different collection types to sove the problem
@@ -37,6 +39,7 @@ namespace Patterns.CompositeSmell
       var amountForEach = goldForKill / totalToSplitBy;
       var leftOver = goldForKill % totalToSplitBy;
 
+      //smell - iterate over collection
       foreach (var individual in individuals)
       {
         individual.Gold += amountForEach + leftOver;

@@ -93,7 +93,6 @@ namespace Patterns.BuilderSolution
   //No logic - this becomes a very clear data class
   public class WeekendSandwichBuilder : SandwichBuilder
   {
-    Sandwich sandwich;
 
     public override void ApplyMeatAndCheese()
     {
